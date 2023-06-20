@@ -1,0 +1,65 @@
+.form-demo .card {
+    min-width: 450px;
+}
+.form-demo .card form {
+    margin-top: 2rem;
+}
+.form-demo .card .field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-demo .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-demo .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
+.error{
+    color: red;
+}
+.p-card-title{
+    font-size: 15px  !important;
+    margin-bottom: 0px !important;
+    margin-top: -21px;
+}
+.p-card-subtitle{
+    margin-bottom: -0.5rem !important;
+}
+/* .p-card-footer{
+   
+} */
+.p-button{
+    margin-right: 5px !important;
+    padding: 0.5rem !important;
+}
+/* .p-card{
+    font-size: 15px;
+} */
+.field{
+    margin-bottom: 20px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.text-center{
+   display: flex;
+   justify-content: center;
+}
+/* .justify-content-center{
+    display: flex;
+    flex-direction: column;
+} */
+.upload-button{
+     font-size: 0; }
+
+::file-selector-button { font-size: initial; }
+
+.upload-img{
+    max-height: 200px;
+    max-width: 200px;
+}
